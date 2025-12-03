@@ -1,6 +1,37 @@
-venv/
+# Python
+*.py[cod]
 __pycache__/
+*.pyo
+*.pyd
 *.pyc
-db.sqlite3
+*.pyd
+*.sqlite3
 *.log
-*.env
+*.pot
+*.py[co]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.env
+
+# Django
+*.sqlite3
+*.log
+/staticfiles/
+media/
+*.pot
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
